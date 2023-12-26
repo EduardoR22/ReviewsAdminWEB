@@ -1,5 +1,5 @@
 import {getProjects, getIssues} from "@/api/routeReviews"
-import FormReview from "@/components/reviews/reviews/FormReview";
+import FormReview from "@/components/reviews/FormReview";
 
 export default async function Reviews(){
   
@@ -35,6 +35,5 @@ export default async function Reviews(){
         <FormReview issues={issues} projects={projects} />
       </div>
     </>
-    // <>Reviews</>
   )
 }
