@@ -1,5 +1,5 @@
 import {getProjects, getIssues} from "@/api/routeReviews"
-import FormReview from "@/components/reviews/FormReview";
+import FormReview from "@/components/reviews/reviews/FormReview";
 
 export default async function Reviews(){
   
